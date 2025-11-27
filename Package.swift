@@ -12,7 +12,7 @@ let package = Package(
             targets: ["AdiscopeMediaAdManagerTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.2.0"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.11.0"),
     ],
     targets: [
         .target(
@@ -25,8 +25,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdManager",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaAdManager.zip",
-            checksum: "18e43dd058ca57fbf92cdac80005b5dde6bc29276a127eb2f6852eb64bf4244c"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AdiscopeMediaAdManager.zip",
+            checksum: "9d83cfbeec3895bee99595a91b6d149495a647656dfcb70befb9571cfc801e11"
         ),
     ]
 )
