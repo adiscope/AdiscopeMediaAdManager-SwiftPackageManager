@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "AdiscopeMediaAdManager",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "AdiscopeMediaAdManager",
